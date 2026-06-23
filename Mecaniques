@@ -1,73 +1,194 @@
-⚔️ Combat
-Attaque automatique / Mono Cible
-Coup critique
-Dégâts de zone
-Knockback sur les monstres
-👹 Monstres
-Monstres normaux
-Monstres rapides
-Monstres tank
-Élites
-Boss
-🌊 Vagues
-Vagues infinies
-Difficulté progressive
-📈 Progression permanente
-Dégâts
-Vitesse d'attaque
-Portée
-Critiques
-Santé
-Régénération
-Vitesse de déplacement
-Nombre de projectiles
-Chance de loot
-🎯 Système de niveau pendant la partie ( lvl 100 max )
-Gain d'XP
-Montée de niveau -) Arrêt des mobs + joueurs + Timer stop (game paused)
-Choix entre 3 améliorations aléatoires
-Nouvelles armes
-Stats 
-Capacités 
-🔫 Armes
-Épée
-Arc
-Fusil
-Boules de feu
-Éclairs
-Tornade
-Laser
-Drones
-✨ Capacités/Spell ?
-💎 Loot
-Coins
-Coffres
-🗺️ Cartes
-Plaines
-🚪 Progression de cartes ??
-Difficulté croissante
-Boss de fin de zone ??
-👥 Coop
-Solo
-Duo ??
-Bonus de groupe ( plusieurs sur le serveur )
-🏆 Objectifs
-Survivre 10 minutes
-Tuer des monstres → gagner XP → choisir des upgrades aléatoires → survivre plus longtemps → devenir de plus en plus fort → Mourir  → Relancer une game
-Tuer X monstres ?
-Coffre d'ames (petite zone , palier à atteindre) style B03 Shadow of evil 
-Battre un boss
-Finir une carte
-Finir sans mourir
-Mort -) Retour au lobby
-🔄 Rejouabilité
-Rebirth
-Difficulté Nightmare
-Difficulté Inferno
-Modificateurs aléatoires
-Défis quotidiens
-🎁 Rétention
-Récompense quotidienne
-Quêtes journalières
-Quêtes hebdomadaires
-Battle Pass
+# 🎮 Game Design Document — Roblox Survivor (Megabonk-like)
+
+## 🧠 1. Vision du jeu
+
+Un jeu de survie en arène inspiré des “survivor-like”, où le joueur combat des vagues infinies de monstres, gagne en puissance au fil de la partie et tente de survivre le plus longtemps possible.
+
+Le gameplay repose sur :
+
+* combat automatique ou semi-automatique
+* progression rapide en partie
+* choix d’upgrades aléatoires
+* montée en difficulté constante
+* récompenses de fin de run
+
+---
+
+## 🔁 2. Core Gameplay Loop
+
+1. Spawn dans une arène
+2. Les monstres apparaissent en continu
+3. Le joueur tue des ennemis → gagne XP
+4. Level up → choix de 3 upgrades aléatoires
+5. Le joueur devient progressivement plus puissant
+6. La difficulté augmente (vagues / scaling)
+7. Le joueur meurt ou survit longtemps
+8. Récompenses + monnaie + progression permanente
+9. Nouvelle run
+
+---
+
+## ⚔️ 3. Système de combat
+
+* Attaques automatiques ou cooldown court
+* Hitboxes simples (proches du joueur ou projectiles)
+* Dégâts scalables via upgrades
+* Feedback visuel fort (FX, knockback, numbers)
+
+---
+
+## 📈 4. Système de progression en run
+
+### XP & Leveling
+
+* XP drop sur chaque kill
+* Level up toutes les X XP
+* Chaque level = choix de 3 upgrades
+
+### Upgrades possibles
+
+* * Damage
+* * Attack Speed
+* * Movement Speed
+* * Area of Effect
+* * Critical Chance
+* * Life Steal
+* * Projectile Count
+* * Range
+* * Defense
+* * XP Gain Boost
+
+---
+
+## 🧬 5. Progression permanente (Meta Game)
+
+Entre les runs, le joueur peut améliorer :
+
+* dégâts de base
+* vitesse de déplacement
+* chance de loot
+* nouveaux personnages
+* unlock d’armes spéciales
+
+Monnaie gagnée en fin de partie :
+
+* basée sur kills + durée de survie + bosses
+
+---
+
+## 👾 6. Types d’ennemis
+
+### Common mobs
+
+* faible HP, spawn en masse
+
+### Tank mobs
+
+* lent, beaucoup de HP
+
+### Fast mobs
+
+* faible HP, très rapides
+
+### Ranged mobs
+
+* attaques à distance
+
+### Elite mobs
+
+* mini-boss avec compétences
+
+---
+
+## 👑 7. Boss System
+
+* Boss spawn toutes les X minutes (ex: 5 min)
+* HP élevé + patterns simples
+* Drops importants (gold / upgrades / bonus run)
+* Intensifie la difficulté globale
+
+---
+
+## 🗺️ 8. Design de map
+
+* Arène principale fermée
+* Zones de spawn ennemis dynamiques
+* Espaces ouverts pour kite les ennemis
+* Visibilité claire (pas trop de clutter)
+* Lecteur de gameplay fluide (aucun obstacle inutile)
+
+---
+
+## ⚖️ 9. Équilibrage
+
+Objectifs :
+
+* Run moyenne : 10 à 20 minutes
+* Level up toutes les 20–60 secondes au début
+* Scaling difficulté exponentiel mais lisible
+* Le joueur doit se sentir “fort mais jamais invincible”
+
+---
+
+## 💰 10. Monétisation
+
+### Gamepasses
+
+* +XP Boost
+* +Luck Boost
+* Personnages exclusifs
+* Cosmétiques (auras, skins)
+
+### Developer Products
+
+* revive (1 fois par run)
+* gold boost temporaire
+
+⚠️ Important : éviter pay-to-win excessif
+
+---
+
+## 📊 11. KPI (objectifs de succès)
+
+* Retention D1 > 25%
+* Session moyenne > 10 min
+* Return rate élevé (players qui rejouent)
+* Conversion shop > 2–5%
+
+---
+
+## 🚀 12. Vision long terme
+
+* Ajout de nouvelles maps
+* Nouveaux modes (hardcore, endless+)
+* Builds variés (synergies d’upgrades)
+* Events temporaires
+* Classements globales
+
+---
+
+## 🧩 13. Rôle de l’équipe
+
+### Game Designer (toi)
+
+* équilibre du jeu
+* définition des systèmes
+* design des upgrades
+* validation du fun
+* ajustements continus
+
+### Developer
+
+* implémentation des systèmes
+* optimisation gameplay
+* scripts ennemis / XP / upgrades
+
+### Map Designer
+
+* création des arènes
+* placement des zones de spawn
+* lisibilité du terrain
+* ambiance visuelle
+
+---
+
