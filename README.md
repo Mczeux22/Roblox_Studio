@@ -37,6 +37,19 @@ Setup base serveur (réplication propre Roblox)
 ## 🎯 Version 0.2.0 - Core Features
 
 **Status:** ⏳ Planned
+🟡 TO DO
+Système d’XP + Leveling
+Système de gain XP sur kill
+Système de choix d’upgrades 3 choix (UI + logique)
+Implémenter 8 upgrades de base :
+Damage
+Attack Speed
+Movement Speed
+Critical Chance
+Projectile Count
+XP Gain
+Luck
+Projectile Speed
 
 ### Added
 
