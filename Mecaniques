@@ -1,5 +1,5 @@
 ⚔️ Combat
-Attaque automatique
+Attaque automatique / Mono Cible
 Coup critique
 Dégâts de zone
 Knockback sur les monstres
@@ -21,21 +21,18 @@ Santé
 Régénération
 Vitesse de déplacement
 Nombre de projectiles
-Taille des attaques
 Chance de loot
-🎯 Système de niveau pendant la partie
-
+🎯 Système de niveau pendant la partie ( lvl 100 max )
 Gain d'XP
-Montée de niveau
-Choix entre 3 améliorations
-Combinaisons d'armes
-Évolutions d'armes
-Bonus temporaires
+Montée de niveau -) Arrêt des mobs + joueurs + Timer stop (game paused)
+Choix entre 3 améliorations aléatoires
+Nouvelles armes
+Stats 
+Capacités 
 🔫 Armes
 Épée
 Arc
 Fusil
-Canon
 Boules de feu
 Éclairs
 Tornade
@@ -44,7 +41,6 @@ Drones
 ✨ Capacités ??
 💎 Loot
 Coins
-Meilleurs améliorations
 Coffres
 🗺️ Cartes
 Plaines
@@ -61,6 +57,7 @@ Tuer X monstres ?
 Battre un boss
 Finir une carte
 Finir sans mourir
+Mort -) Retour au lobby
 🔄 Rejouabilité
 Rebirth
 Difficulté Nightmare
