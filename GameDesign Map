@@ -1,0 +1,86 @@
+# 🗺️ Map Design Document — Level 1 (Survivor Arena)
+
+## 🌄 1. Vision de la map
+
+La map Level 1 est une **plaine ouverte, simple et lisible**, conçue pour :
+
+* apprendre le gameplay au joueur
+* faciliter la lecture des combats
+* éviter les obstacles complexes
+* offrir une zone de kite fluide (déplacement autour des ennemis)
+
+---
+
+## 🌍 2. Structure générale
+
+### Forme de la map
+
+* Grande carrée
+* Taille  : assez grande pour 1 joueur et dans le futur assez grande pour coop
+* Bordures fermées (murs invisibles ou montagnes simples)
+
+### Terrain
+
+* Terrain globalement plat (priorité lisibilité)
+* Creer Du relief, colline pour soulchest notament 
+* Pas de trous, pas de pièges au Level 1
+
+---
+
+## 🌿 3. Style visuel
+
+### Ambiance
+
+* Jour + léger brouillard
+* Couleurs : vert / jaune doux / bleu ciel
+* Contraste faible mais lisible
+
+### Assets
+
+* Herbe simple
+* Quelques rochers dispersés
+* Quelques arbres espacés (pas dense)
+
+> la map doit rester lisible même avec 200 ennemis à l’écran
+
+---
+
+## 👾 5. Spawning gameplay
+
+  prévoir :
+
+* spawn ennemis autour du joueur 
+
+👉 La map doit permettre du “kite” 
+
+---
+
+## 🧱 6. Bordures de la map
+
+* Mur invisible + décor montagne légère OU falaises basses
+* Doit empêcher de sortir de la zone
+* Ne pas être trop visible depuis le centre
+* Pas de formes complexes 
+
+---
+
+Objectif :
+
+> lisibilité maximale des combats
+
+---
+
+## ⚖️ 8. Contraintes gameplay
+
+La map DOIT permettre :
+
+* déplacement fluide en combat
+* visibilité des ennemis même en masse
+* aucun obstacle bloquant la caméra
+* pas de chokepoints (Level 1 = open field)
+
+La map NE DOIT PAS :
+
+* bloquer les ennemis
+* créer des zones exploitables pour AFK
+* gêner les projectiles ou pathfinding
